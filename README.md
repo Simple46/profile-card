@@ -47,7 +47,7 @@ All elements are testable via the following data-testid attributes:
 
 1. Clone the repository
    `bash
-   git clone https://github.com/simple46/profile-card.git
+   https://github.com/Simple46/profile-card.git
    cd frontend-wizards-stage0
 Open in browser
 # Option 1: Simply open the HTML file
