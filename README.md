@@ -41,13 +41,13 @@ All elements are testable via the following data-testid attributes:
 
 ## 🚀 Live Demo
 
-[View Live Demo](YOUR_NETLIFY_OR_GITHUB_PAGES_URL_HERE)
+[View Live Demo](https://hissa-card.netlify.app/)
 
 ## 📦 Installation & Local Setup
 
 1. Clone the repository
    `bash
-   git clone https://github.com/YOUR_USERNAME/frontend-wizards-stage0.git
+   git clone https://github.com/simple46/profile-card.git
    cd frontend-wizards-stage0
 Open in browser
 # Option 1: Simply open the HTML file
