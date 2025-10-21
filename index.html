@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Frontend Wizards Stage 0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="profile-card" data-testid="test-profile-card">
+        <div class="card-content">
+            <section class="avatar-section">
+                <figure class="avatar-figure">
+                    <img 
+                        src="img/hissa-image.jpg" 
+                        alt="Profile picture of Sarah Johnson"
+                        class="avatar"
+                        data-testid="test-user-avatar"
+                    >
+                </figure>
+            </section>
+
+            <section class="info-section">
+                <header class="header">
+                    <h1 class="user-name" data-testid="test-user-name">Hissa Olayiwola</h1>
+                    <time class="timestamp" data-testid="test-user-time" id="currentTime"></time>
+                </header>
+
+                <p class="bio" data-testid="test-user-bio">
+                    Creative frontend developer with a passion for building accessible, 
+                    user-friendly web experiences. I love combining clean code with beautiful 
+                    design to create products that make a difference. Always learning, always 
+                    growing, and always excited about the next challenge.
+                </p>
+
+                <nav class="social-nav" aria-label="Social media links">
+                    <ul class="social-links" data-testid="test-user-social-links">
+                        <li>
+                            <a 
+                                href="https://github.com/sarahjohnson" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-github"
+                            >
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://twitter.com/sarahjohnson" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-twitter"
+                            >
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://linkedin.com/in/sarahjohnson" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-linkedin"
+                            >
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="lists-container">
+                    <section class="list-section">
+                        <h2 class="section-title"> Hobbies</h2>
+                        <ul class="list" data-testid="test-user-hobbies">
+                            <li class="list-item">Watching Movies</li>
+                            <li class="list-item">Reading self development books</li>
+                            <li class="list-item">Playing Games</li>
+                            <li class="list-item">Reading Sci-Fi Novels</li>
+                            <li class="list-item">Cooking</li>
+                        </ul>
+                    </section>
+
+                    <section class="list-section">
+                        <h2 class="section-title">Dislikes</h2>
+                        <ul class="list" data-testid="test-user-dislikes">
+                            <li class="list-item">Seeing error in my code</li>
+                            <li class="list-item">Not having money</li>
+                            <li class="list-item">Traffic jams</li>
+                            <li class="list-item">Loud chewing sounds</li>
+                            <li class="list-item">Telling me to do what i already know</li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </article>
+</body>
+</html>
